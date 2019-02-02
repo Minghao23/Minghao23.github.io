@@ -1,3 +1,10 @@
+---
+layout: post
+title: 使用Github Pages搭建你的个人网站
+categories: Technology
+keywords: Github Pages, Jekyll, Blog
+---
+
 ### **为什么要用Github Pages**
 大概每个人都想拥有一个自己的个人主页，建站方式从一点点写原生代码到直接购买博客网站的服务有很多很多的选择。我以前也尝试过用React + Flask + MySQL + AWS搞一套完完全全自己写的网站，但是刚刚开始搞前端遇到了点webpack的坑就做不下去了，工程量和维护量都太大了。而简书等博客网站又无法自由自在的定制功能和界面，限制很多，服务器容量小，未来还可能会收费。在调研了很多建站的方式后，我选择了Github Pages + Jekyll。
 

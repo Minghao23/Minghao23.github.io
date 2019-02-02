@@ -86,7 +86,7 @@ repository: mzlogin/mzlogin.github.io
 # ---------------- #
 #      Comments    #
 # ---------------- #
-
+comments_provider: gitalk
 # https://github.com/gitalk/gitalk#install
 gitalk:
     owner: Minghao23

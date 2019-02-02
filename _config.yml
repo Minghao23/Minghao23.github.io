@@ -2,11 +2,12 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: https://Minghao23.github.io
+url: https://minghao23.github.io
 date_format: "ordinal"
-title: HMH
+title: 胡明昊的个人网站
 subtitle: "胡明昊"
-description: "胡明昊的个人博客"
+logo:
+description: "分享我的知识，见闻，生活和理想"
 keywords: 胡明昊, Minghao Hu, minghao, Minghao23, hmh
 timezone: Asia/Shanghai
 encoding: "utf-8"
@@ -28,15 +29,11 @@ email: hu_minghao@outlook.com
 navs:
   -
     href: /
-    label: 首页
+    label: 主页
 
   -
     href: /categories/
     label: 分类
-
-#   -
-#     href: /archives/
-#     label: 归档
 
   -
     href: /wiki/
@@ -81,7 +78,7 @@ collections:
         output: true
         permalink: /wiki/:path/
 
-repository: mzlogin/mzlogin.github.io
+repository: Minghao23/minghao23.github.io
 
 # ---------------- #
 #      Comments    #

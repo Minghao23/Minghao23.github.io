@@ -1,7 +1,12 @@
-.home .banner,
-.home .site-header {
-    background: #4183c4;
+.home .banner {
+    background: url("/Seattle_banner.jpg");
+    background-size: 100% auto;
     color: #fff
+}
+
+.home .site-header {
+    background: gray;
+    color: #fff;
 }
 
 .home .banner .collection-head {
@@ -36,4 +41,13 @@
   .home .collection-head .collection-header {
     font-size: 1.25em;
   }
+}
+
+
+
+/*Customization*/
+
+.logo {
+    width: 100px;
+    height: 100px;
 }

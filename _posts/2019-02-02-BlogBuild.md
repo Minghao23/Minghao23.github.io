@@ -17,7 +17,7 @@ keywords: Github Pages, Jekyll, Blog
 
 **Jekyll**
 
-Github开发的简单的博客框架，只用Markdown文件直接生成静态网站。Ruby-based。[官网](https://www.jekyll.com.cn/)
+Github开发的简单的博客框架，只用Markdown文件直接生成静态网站。[官网](https://www.jekyll.com.cn/)
 
 **Gitalk**
 
@@ -63,7 +63,7 @@ gitalk:
 ### **搭建本地开发环境**
 如果想修改内容布局和样式，不可能每次测试修改都push一次，一定是要有本地的开发环境的。下面介绍如何搭建本地的开发环境，步骤参考[官方文档](https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/#step-2-install-jekyll-using-bundler)。
 
-Jekyll是Ruby写的博客框架，要求本地必须装有Ruby 2.1.0 以上的版本。
+Jekyll是用Ruby写的博客框架，要求本地必须装有Ruby 2.3.0 以上的版本。
 
 gem是ruby的包管理器，相当于python的pip或者node.js的npm，一般装好的Ruby会自带gem。
 
@@ -78,7 +78,7 @@ gem 'github-pages', group: :jekyll_plugins
 ```
 在根目录下运行
 ```sh
-bundler install
+bundle install
 ```
 bundler会自动将Jekyll相关的所有依赖装好，需要等待几分钟。装好后运行
 ```sh

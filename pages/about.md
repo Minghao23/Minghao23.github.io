@@ -1,32 +1,30 @@
 ---
 layout: page
 title: About
-description: 打码改变世界
-keywords: Zhuang Ma, 马壮
+keywords: 胡明昊，Minghao23
 comments: true
 menu: 关于
 permalink: /about/
 ---
 
-我是马壮，码而生，码而立。
+## 关于
 
-仰慕「优雅编码的艺术」。
+我是胡明昊
 
-坚信熟能生巧，努力改变人生。
+一个兴趣广泛，热爱生活的人
+
+我觉得人生就是不断学习的过程，而兴趣是学习最大的推动力
+
+这里是一个分享知识，生活，见闻和理想的空间
+
+期待着和你一起进步
 
 ## 联系
 
+<hu_minghao@outlook.com>
+
+## 社交媒体
+
 {% for website in site.data.social %}
 * {{ website.sitename }}：[@{{ website.name }}]({{ website.url }})
-{% endfor %}
-
-## Skill Keywords
-
-{% for category in site.data.skills %}
-### {{ category.name }}
-<div class="btn-inline">
-{% for keyword in category.keywords %}
-<button class="btn btn-outline" type="button">{{ keyword }}</button>
-{% endfor %}
-</div>
 {% endfor %}

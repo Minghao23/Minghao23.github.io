@@ -1,19 +1,26 @@
 .home .banner {
-    background: url("/Seattle_banner.jpg");
-    background-size: 100% auto;
+    background-image: url("/assets/images/Seattle_banner.jpg");
+    background-size: auto 100%;
     color: #fff
+    /*color: black;*/
 }
 
 .home .site-header {
-    background: gray;
     color: #fff;
+    /*color: black;*/
 }
 
 .home .banner .collection-head {
     color: #fff;
+    /*color: black;*/
     background: 0 0;
     box-shadow: none;
-    -webkit-box-shadow: none
+    -webkit-box-shadow: none;
+    text-align: center;
+}
+
+.home .banner .collection-head .collection-title {
+    display: inherit;
 }
 
 .home .site-header {
@@ -21,15 +28,18 @@
 }
 
 .home .site-header h1 a {
-    color: #fff
+    /*color: #fff;*/
+    color: black
 }
 
 .home .site-header .site-header-nav-item {
-    color: rgba(255, 255, 255, .5)
+    /*color: rgba(255, 255, 255, .5);*/
+    color: rgba(0, 0, 0, .5)
 }
 
 .home .site-header .site-header-nav-item:hover {
-    color: #fff
+    /*color: #fff;*/
+    color: black;
 }
 
 
@@ -47,7 +57,7 @@
 
 /*Customization*/
 
-.logo {
+.logo_home {
     width: 100px;
     height: 100px;
 }

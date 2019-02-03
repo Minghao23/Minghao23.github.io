@@ -721,3 +721,10 @@ pre {
 .tools-wrapper .gotop {
   display: none;
 }
+
+/*Customization*/
+
+.logo_header {
+    height: 36px;
+    vertical-align: text-top;
+}

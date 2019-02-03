@@ -1,7 +1,8 @@
 ---
 layout: post
 title: 使用Github Pages搭建你的个人网站
-categories: Technology
+class: Technology
+categories: ["Personal Blog"]
 keywords: Github Pages, Jekyll, Blog
 ---
 
@@ -17,7 +18,7 @@ keywords: Github Pages, Jekyll, Blog
 
 **Jekyll**
 
-Github开发的简单的博客框架，只用Markdown文件直接生成静态网站。[官网](https://www.jekyll.com.cn/)
+Github开发的简单的博客框架，用Markdown文件直接生成静态网站。[官网](https://www.jekyll.com.cn/)
 
 **Gitalk**
 
@@ -25,7 +26,7 @@ Github的一个App，提供博客中的评论功能，用项目下的issues实�
 
 **Atom**
 
-Github开发的跨平台文本编辑器，完美支持Markdown，用于写博客。[官网](https://atom.io/)
+Github开发的跨平台文本编辑器，完美支持Git和Markdown，用于写博客和更新Git库。[官网](https://atom.io/)
 
 前端的布局和样式是在别人的项目的基础上修改的，暂时没有用到复杂的效果，未来可以根据需求添加，目测Github Pages是支持js的。
 
@@ -121,6 +122,6 @@ keywords: Atom, Markdown
 
 将文件保存为md格式并确保放在_post下，你的第一篇博文就发表好了。其实除了博文外，网站中的很多其他内容也是用markdown编写的，项目里的文件不多，把每个文件的功能都了解一下，就可以实现真正自定义的个人网站了。比较好修改的部分有_config.yml里的个人信息，还有pages目录下每个页面的内容。另外记得删除原博主的信息和博文。
 
-更进阶的部分就是修改网页的布局和样式了，所有的css和js文件都存在assets目录下，对前端熟悉的同学可以根据自己的需求尽情修改。
+更进阶的部分就是修改网页的布局和样式了，所有的css和js文件都存在assets目录下，对前端熟悉的同学可以根据自己的需求尽情修改。要更改网站的结构，还需要熟悉Jekyll框架中应用的模板语言Liquid语法，类似于JSP。
 
 所有修改完成后，git push到远端，你的第一篇博文就正式发表了！从现在起，坚持更新内容吧。

@@ -32,16 +32,16 @@ navs:
     label: 主页
 
   -
-    href: /categories/
-    label: 分类
+    href: /tech/
+    label: 技术
+
+  -
+    href: /life/
+    label: 生活
 
   -
     href: /wiki/
     label: 维基
-
-  -
-    href: /links/
-    label: 链接
 
   -
     href: /about/

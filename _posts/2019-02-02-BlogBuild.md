@@ -90,7 +90,7 @@ bundle exec jekyll serve
 默认的地址是 http://127.0.0.1:4000， 用浏览器打开就可看到本地环境下的网站效果了。开始修改吧！
 
 ### **第一篇博客**
-Jekyll的文档简单易懂，这里只说一下如何发布你的第一篇博文。更多的细节参考[官方文档](https://www.jekyll.com.cn/)。
+Jekyll的文档简单易懂，如果想按照自己的意愿定制网站布局，建议通读一遍。自己这里只说一下如何发布你的第一篇博文。更多的细节参考[官方文档](https://www.jekyll.com.cn/)。
 
 Jekyll原生支持将markdown格式（或Textile格式）的文本文件转化为博文，项目中的_post文件夹是所有博文的目录。未来可以自定义子分页的目录。发表新文章时，在_post目录下创建文件，文件名为
 ```
@@ -118,7 +118,9 @@ keywords: Atom, Markdown
   <body>
     ...
 ```
-头信息下面就是你的博客内容了，可以选择一个友好的Markdown编辑器来编写文章，我选择的是Atom加上各种Markdown的插件，具体配置可以参见我的文章[使用Atom作为Markdown文本编辑器的配置](https://minghao23.github.io/2019/02/01/Atom/)。
+头信息下面就是你的博客内容了，可以选择一个友好的Markdown编辑器来编写文章，我选择的是Atom加上各种Markdown的插件，具体配置可以参见我的文章[使用Atom作为Markdown文本编辑器](https://minghao23.github.io/2019/02/01/Atom/)。
+
+另外添加LaTeX公式支持的设置参考[这里](https://todebug.com/add-eqution-support-in-jekyll/)。
 
 将文件保存为md格式并确保放在_post下，你的第一篇博文就发表好了。其实除了博文外，网站中的很多其他内容也是用markdown编写的，项目里的文件不多，把每个文件的功能都了解一下，就可以实现真正自定义的个人网站了。比较好修改的部分有_config.yml里的个人信息，还有pages目录下每个页面的内容。另外记得删除原博主的信息和博文。
 

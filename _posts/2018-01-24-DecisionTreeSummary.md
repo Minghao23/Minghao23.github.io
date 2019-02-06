@@ -46,7 +46,7 @@ $$
 ## **例子**
 以根据天气预报决定是否打球的例子来说明。下面是描述天气数据表，学习目标是play或者not play。
 
-<center><img src="/images/blog/decisionTree2.jpg/"></center>
+<center><img src="/images/blog/decisionTree2.jpg"></center>
 
 可以看出，一共14个样例，包括9个正例和5个负例。那么当前信息的熵计算如下
 
@@ -56,7 +56,7 @@ $$
 
 在决策树分类问题中，信息增益就是决策树在进行属性选择划分前和划分后信息的差值。假设利用属性Outlook来分类，那么如下图
 
-<center><img src="/images/blog/decisionTree3.jpg/"></center>
+<center><img src="/images/blog/decisionTree3.jpg"></center>
 
 划分后，数据被分为三部分了，那么各个分支的信息熵计算如下
 
@@ -92,7 +92,7 @@ $$
 
 最后选择信息增益最大的特征作为当前结点，然后再在每个分支下，根据当前的样例集以及特征信息熵，迭代的进行计算，直到某个特征下的信息为0（样例全为一类），或者满足剪枝的条件，或者达到人为设置的限制（最大深度，最多分支等）时，停止分支，决策树就建好了。
 
-<center><img src="/images/blog/decisionTree4.jpg/"></center>
+<center><img src="/images/blog/decisionTree4.jpg"></center>
 
 ## **过度拟合问题**
 前面的算法生成的决策树非常详细并且庞大，每个属性都被详细地加以考虑，决策树的树叶节点所覆盖的训练样本都是“纯”的。因此用这个决策树来对训练样本进行分类的话，你会发现对于训练样本而言，这个树表现完好，误差率极低且能够正确得对训练样本集中的样本进行分类。训练样本中的错误数据也会被决策树学习，成为决策树的部分，但是对于测试数据的表现就没有想象的那么好，或者极差，这就是所谓的过拟合(Overfitting)问题。Quinlan教授试验，在数据集中，过拟合的决策树的错误率比经过简化的决策树的错误率要高。

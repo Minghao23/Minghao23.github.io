@@ -6,12 +6,12 @@ categories: ["Personal Blog"]
 keywords: Github Pages, Jekyll, Blog
 ---
 
-### **为什么要用Github Pages**
+## **为什么要用Github Pages**
 大概每个人都想拥有一个自己的个人主页，建站方式从一点点写原生代码到直接购买博客网站的服务有很多很多的选择。我以前也尝试过用React + Flask + MySQL + AWS搞一套完完全全自己写的网站，但是刚刚开始搞前端遇到了点webpack的坑就做不下去了，工程量和维护量都太大了。而简书等博客网站又无法自由自在的定制功能和界面，限制很多，服务器容量小，未来还可能会收费。在调研了很多建站的方式后，我选择了Github Pages + Jekyll。
 
 如何做选择？其实主要还是要明确个人需求，比如建站目的，博客内容的偏好，维护的精力，成本大小等等。Github Pages + Jekyll的优势在于：免费，部署方便，稳定性好，插件齐全，自由度高，配套工具好用。另外要明确的是，内容才是网站的核心，坚持更新维护要比建站更重要。
 
-### **技术栈**
+## **技术栈**
 **Github Pages**
 
 相当于一个部署极其方便的免费服务器，自动渲染静态网页。[官网](https://pages.github.com/)
@@ -31,7 +31,7 @@ Github开发的跨平台文本编辑器，完美支持Git和Markdown，用于写
 前端的布局和样式是在别人的项目的基础上修改的，暂时没有用到复杂的效果，未来可以根据需求添加，目测Github Pages是支持js的。
 
 
-### **开始**
+## **开始**
 Github Pages是完全依赖于Github的工具。所以必要条件是必须要有Github账号并熟悉Git的流程。
 
 如果想从头定制，那么参照Github Pages和Jekyll的文档一步步来即可。我为了省下一些设计工作，直接fork了‘码志’（感谢mzlogin）的代码并逐步修改成了自己的。首先fork mzlogin的Github Pages项目 https://github.com/mzlogin/mzlogin.github.io
@@ -61,7 +61,7 @@ gitalk:
 ```
 将项目push到远端后，文章下面就可以看到评论框了。有一点小不爽的是，每篇文章都要在评论框中登录一次你的Github账号才可以创建issue，相当于每篇文章都要激活一下才可以使用评论功能。回复可以选择匿名或登录Github账号。
 
-### **搭建本地开发环境**
+## **搭建本地开发环境**
 如果想修改内容布局和样式，不可能每次测试修改都push一次，一定是要有本地的开发环境的。下面介绍如何搭建本地的开发环境，步骤参考[官方文档](https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/#step-2-install-jekyll-using-bundler)。
 
 Jekyll是用Ruby写的博客框架，要求本地必须装有Ruby 2.3.0 以上的版本。
@@ -89,7 +89,7 @@ bundle exec jekyll serve
 
 默认的地址是 http://127.0.0.1:4000， 用浏览器打开就可看到本地环境下的网站效果了。开始修改吧！
 
-### **第一篇博客**
+## **第一篇博客**
 Jekyll的文档简单易懂，如果想按照自己的意愿定制网站布局，建议通读一遍。自己这里只说一下如何发布你的第一篇博文。更多的细节参考[官方文档](https://www.jekyll.com.cn/)。
 
 Jekyll原生支持将markdown格式（或Textile格式）的文本文件转化为博文，项目中的_post文件夹是所有博文的目录。未来可以自定义子分页的目录。发表新文章时，在_post目录下创建文件，文件名为

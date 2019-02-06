@@ -1,0 +1,7 @@
+- name: Math Webdemo
+  url: https://webdemo.myscript.com/
+  desc: 手写数学表达式转换为LaTeX脚本
+
+- name: Seeing Theory
+  url: https://seeing-theory.brown.edu/
+  desc: 概率论和统计学的概念可视化

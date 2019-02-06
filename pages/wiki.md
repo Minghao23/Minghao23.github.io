@@ -8,7 +8,7 @@ menu: 维基
 permalink: /wiki/
 ---
 
-> 记多少命令和快捷键会让脑袋爆炸呢？
+## 永远记不住的命令和语法
 
 <ul class="listing">
 {% for wiki in site.wiki %}
@@ -17,3 +17,9 @@ permalink: /wiki/
 {% endif %}
 {% endfor %}
 </ul>
+
+## 超实用的网站
+
+{% for website in site.data.bookmarks %}
+* [{{ website.name }}]({{ website.url }})：{{website.desc}}
+{% endfor %}

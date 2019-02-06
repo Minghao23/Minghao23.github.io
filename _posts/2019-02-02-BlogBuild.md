@@ -43,7 +43,7 @@ Github Pages是完全依赖于Github的工具。所以必要条件是必须要�
 ### **评论功能**
 接下来是配置评论功能，选择很多，我用的是Gitalk，因为不会被墙。Gitalk是利用Github issue开发的博客评论插件，在一篇文章下评论时，Gitalk会自动在项目下建立一个文章标题的Issue，评论就相当于在Issue下提问题。
 
-Gitalk在使用之前需要创建一个Gitalk App，[点击创建](https://github.com/settings/applications/new)。
+Gitalk在使用之前需要创建一个Gitalk App，[点击创建](https://github.com/settings/applications/new)。如果绑定了域名，这里的地址要填以http://开头的绑定域名的地址，否则会发生重定向失败。
 
 ![Gitalk Application](/images/blog/markdown-img-paste-20190202102405963.png)
 

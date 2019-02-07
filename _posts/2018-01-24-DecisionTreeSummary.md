@@ -3,7 +3,7 @@ layout: post
 title: 决策树总结
 class: Technology
 categories: ["Machine Learning"]
-keywords: 决策树,Decision Tree， ID3
+keywords: 决策树, Decision Tree, ID3
 ---
 
 感觉找不到一篇好的关于决策树的总结，学习的时候太麻烦了，所以这里自己总结一下以便复习。

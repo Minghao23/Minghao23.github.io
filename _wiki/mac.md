@@ -257,22 +257,11 @@ Killall SystemUIServer
 
 使用系统自带的 Grab 工具，运行后选择菜单的 Capture - Timed Screen。
 
-## iBooks 里的电子书保存路径
+### 删除Chrome浏览器里的地址栏自动补全记录
 
-`/Users/<username>/Library/Containers/com.apple.BKAgentService/Data/Documents/iBooks/Books`
-
-## 安装 mpv 没有图形界面
-
-使用 `brew options mpv` 可以看到有个 `--with-bundle` 是安装时创建 .app 文件。
-
-```sh
-brew install mpv --with-bundle
-brew linkapps mpv
-```
-
-## 屏幕取色
-
-使用 Mac 自带的“数码测色计”。
+上下移动光标使要删除的地址高亮
+Fn + Shift + Backspace
+当外接键盘时变成了Option + Shift + Del，奇怪。
 
 ## 参考
 

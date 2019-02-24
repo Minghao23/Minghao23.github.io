@@ -8,7 +8,7 @@ menu: 维基
 permalink: /wiki/
 ---
 
-## 永远记不住的命令和语法
+## 永远记不住的命令和语法
 
 <ul class="listing">
 {% for wiki in site.wiki %}
@@ -21,5 +21,5 @@ permalink: /wiki/
 ## 超实用的网站
 
 {% for website in site.data.bookmarks %}
-* [{{ website.name }}]({{ website.url }})：{{website.desc}}
+* [{{ website.name }}]({{ website.url }})：{{website.desc}}
 {% endfor %}

@@ -260,7 +260,7 @@ Killall SystemUIServer
 ### 删除Chrome浏览器里的地址栏自动补全记录
 
 上下移动光标使要删除的地址高亮
-Fn + Shift + Backspace
+Fn + Shift + Backspace
 当外接键盘时变成了Option + Shift + Del，奇怪。
 
 ## 参考

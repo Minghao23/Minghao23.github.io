@@ -7,9 +7,9 @@ keywords: Github Pages, Jekyll, Blog
 ---
 
 ## **为什么要用Github Pages**
-大概每个人都想拥有一个自己的个人主页，建站方式从一点点写原生代码到直接购买博客网站的服务有很多很多的选择。我以前也尝试过用React + Flask + MySQL + AWS搞一套完完全全自己写的网站，但是刚刚开始搞前端遇到了点webpack的坑就做不下去了，工程量和维护量都太大了。而简书等博客网站又无法自由自在的定制功能和界面，限制很多，服务器容量小，未来还可能会收费。在调研了很多建站的方式后，我选择了Github Pages + Jekyll。
+大概每个人都想拥有一个自己的个人主页，建站方式从一点点写原生代码到直接购买博客网站的服务有很多很多的选择。我以前也尝试过用React + Flask + MySQL + AWS搞一套完完全全自己写的网站，但是刚刚开始搞前端遇到了点webpack的坑就做不下去了，工程量和维护量都太大了。而简书等博客网站又无法自由自在的定制功能和界面，限制很多，服务器容量小，未来还可能会收费。在调研了很多建站的方式后，我选择了Github Pages + Jekyll。
 
-如何做选择？其实主要还是要明确个人需求，比如建站目的，博客内容的偏好，维护的精力，成本大小等等。Github Pages + Jekyll的优势在于：免费，部署方便，稳定性好，插件齐全，自由度高，配套工具好用。另外要明确的是，内容才是网站的核心，坚持更新维护要比建站更重要。
+如何做选择？其实主要还是要明确个人需求，比如建站目的，博客内容的偏好，维护的精力，成本大小等等。Github Pages + Jekyll的优势在于：免费，部署方便，稳定性好，插件齐全，自由度高，配套工具好用。另外要明确的是，内容才是网站的核心，坚持更新维护要比建站更重要。
 
 ## **技术栈**
 **Github Pages**
@@ -28,13 +28,13 @@ Github的一个App，提供博客中的评论功能，用项目下的issues实�
 
 Github开发的跨平台文本编辑器，完美支持Git和Markdown，用于写博客和更新Git库。[官网](https://atom.io/)
 
-前端的布局和样式是在别人的项目的基础上修改的，暂时没有用到复杂的效果，未来可以根据需求添加，目测Github Pages是支持js的。
+前端的布局和样式是在别人的项目的基础上修改的，暂时没有用到复杂的效果，未来可以根据需求添加，目测Github Pages是支持js的。
 
 
 ## **开始**
-Github Pages是完全依赖于Github的工具。所以必要条件是必须要有Github账号并熟悉Git的流程。
+Github Pages是完全依赖于Github的工具。所以必要条件是必须要有Github账号并熟悉Git的流程。
 
-如果想从头定制，那么参照Github Pages和Jekyll的文档一步步来即可。我为了省下一些设计工作，直接fork了‘码志’（感谢mzlogin）的代码并逐步修改成了自己的。首先fork mzlogin的Github Pages项目 https://github.com/mzlogin/mzlogin.github.io
+如果想从头定制，那么参照Github Pages和Jekyll的文档一步步来即可。我为了省下一些设计工作，直接fork了‘码志’（感谢mzlogin）的代码并逐步修改成了自己的。首先fork mzlogin的Github Pages项目 https://github.com/mzlogin/mzlogin.github.io
 
 按照 GitHub Pages 的规定，名称为 [username].github.io 的项目的 master 分支，或者其它名称的项目的 gh-pages 分支可以自动生成 GitHub Pages 页面。所以要将你fork的repo的项目名修改为上述格式。
 
@@ -47,7 +47,7 @@ Gitalk在使用之前需要创建一个Gitalk App，[点击创建](https://githu
 
 ![Gitalk Application](/images/blog/markdown-img-paste-20190202102405963.png)
 
-创建成功后，Github会返回给你Client ID和Client Secret，然后需要在项目下_config.yml中配置gitalk。
+创建成功后，Github会返回给你Client ID和Client Secret，然后需要在项目下_config.yml中配置gitalk。
 ``` yml
 # ---------------- #
 #      Comments    #
@@ -62,13 +62,13 @@ gitalk:
 将项目push到远端后，文章下面就可以看到评论框了。有一点小不爽的是，每篇文章都要在评论框中登录一次你的Github账号才可以创建issue，相当于每篇文章都要激活一下才可以使用评论功能。回复可以选择匿名或登录Github账号。
 
 ## **搭建本地开发环境**
-如果想修改内容布局和样式，不可能每次测试修改都push一次，一定是要有本地的开发环境的。下面介绍如何搭建本地的开发环境，步骤参考[官方文档](https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/#step-2-install-jekyll-using-bundler)。
+如果想修改内容布局和样式，不可能每次测试修改都push一次，一定是要有本地的开发环境的。下面介绍如何搭建本地的开发环境，步骤参考[官方文档](https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/#step-2-install-jekyll-using-bundler)。
 
 Jekyll是用Ruby写的博客框架，要求本地必须装有Ruby 2.3.0 以上的版本。
 
 gem是ruby的包管理器，相当于python的pip或者node.js的npm，一般装好的Ruby会自带gem。
 
-bundler是gems的依赖管理工具，若没有先安装bundler。
+bundler是gems的依赖管理工具，若没有先安装bundler。
 ```sh
 gem install bundler
 ```
@@ -118,11 +118,11 @@ keywords: Atom, Markdown
   <body>
     ...
 ```
-头信息下面就是你的博客内容了，可以选择一个友好的Markdown编辑器来编写文章，我选择的是Atom加上各种Markdown的插件，具体配置可以参见我的文章[使用Atom作为Markdown文本编辑器](https://minghao23.github.io/2019/02/01/Atom/)。
+头信息下面就是你的博客内容了，可以选择一个友好的Markdown编辑器来编写文章，我选择的是Atom加上各种Markdown的插件，具体配置可以参见我的文章[使用Atom作为Markdown文本编辑器](https://minghao23.github.io/2019/02/01/Atom/)。
 
 另外添加LaTeX公式支持的设置参考[这里](https://todebug.com/add-eqution-support-in-jekyll/)。
 
-将文件保存为md格式并确保放在_post下，你的第一篇博文就发表好了。其实除了博文外，网站中的很多其他内容也是用markdown编写的，项目里的文件不多，把每个文件的功能都了解一下，就可以实现真正自定义的个人网站了。比较好修改的部分有_config.yml里的个人信息，还有pages目录下每个页面的内容。另外记得删除原博主的信息和博文。
+将文件保存为md格式并确保放在_post下，你的第一篇博文就发表好了。其实除了博文外，网站中的很多其他内容也是用markdown编写的，项目里的文件不多，把每个文件的功能都了解一下，就可以实现真正自定义的个人网站了。比较好修改的部分有_config.yml里的个人信息，还有pages目录下每个页面的内容。另外记得删除原博主的信息和博文。
 
 更进阶的部分就是修改网页的布局和样式了，所有的css和js文件都存在assets目录下，对前端熟悉的同学可以根据自己的需求尽情修改。要更改网站的结构，还需要熟悉Jekyll框架中应用的模板语言Liquid语法，类似于JSP。
 

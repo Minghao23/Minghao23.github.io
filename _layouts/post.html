@@ -16,7 +16,12 @@ layout: default
           {% for cat in page.categories %}
           <span class="meta-info">
             <span class="octicon octicon-file-directory"></span>
-            <a href="{{ site.url }}/categories/#{{ cat }}" title="{{ cat }}">{{ cat }}</a>
+            {% if page.class == "Technology" %}
+            <a href="{{ site.url }}/tech/#{{ cat }}" title="{{ cat }}">{{ cat }}</a>
+            {% endif %}
+            {% if page.class == "Life" %}
+            <a href="{{ site.url }}/life/#{{ cat }}" title="{{ cat }}">{{ cat }}</a>
+            {% endif %}
           </span>
           {% endfor %}
         </div>

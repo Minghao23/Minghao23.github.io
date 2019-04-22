@@ -2,7 +2,7 @@
 layout: post
 title: 西雅图超速后申请Deferral经验
 class: Life
-categories: Experience
+categories: ["Experience"]
 keywords: Seattle, Pull over, 超速
 ---
 

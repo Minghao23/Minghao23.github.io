@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: about
 title: About
 keywords: 胡明昊，Minghao23
 comments: true

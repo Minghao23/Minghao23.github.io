@@ -42,3 +42,29 @@ git rm -r --cached 文件名
 ```
 
 `-r`表示递归删除文件夹，`--cached`表示删除仓库索引，保留本地，文件名可以为目录。
+
+### Git pull/push 特别慢的解决方案
+
+用自己的 Mac 在家 git pull 的时候速度一直是2kb/s，每次都导致超时，需要修改hostname加速。
+
+1.获取Github相关网站的ip
+
+访问 <https://www.ipaddress.com> ，找到页面中下方的IP Address Tools - Quick Links，分别输入github.global.ssl.fastly.net和github.com，查询ip地址。
+
+2.修改本地host文件
+
+Mac为例，命令行下输入：`sudo vi /etc/host`，然后输入电脑的密码，打开host文件。
+
+Window为例 `C:\Windows\System32\drivers\etc`
+
+3.增加host映射
+
+参考如下，增加github.global.ssl.fastly.net和github.com的映射。
+
+```sh
+151.101.185.194 github.global.ssl.fastly.net
+192.30.253.112 github.com
+```
+4.重启终端
+
+最后速度变成了几十kb/s吧，总之是不会超时了

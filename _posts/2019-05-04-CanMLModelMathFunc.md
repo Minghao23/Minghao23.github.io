@@ -17,7 +17,7 @@ keywords: Machine Learning Math Model
 
 > 使用机器学习建模一些基础数学函数
 
-![Photo Credits: [Unsplash](https://unsplash.com/)](https://cdn-images-1.medium.com/max/7276/1*lG0d-oazOpw92Z_GaSAzcw.jpeg)
+![Photo Credits: [Unsplash](https://unsplash.com/)](https://user-gold-cdn.xitu.io/2019/5/4/16a82726fdf93e64?w=3638&h=2830&f=jpeg&s=605613)
 
 近来，在各种任务上应用机器学习已经成为了一个惯例。似乎在每一个 [Gartner's 技术循环曲线](https://en.wikipedia.org/wiki/Hype_cycle) 上的新兴技术都对机器学习有所涉及，这是一种趋势。这些算法被当做 figure-out-it-yourself 的模型：将任何类型的数据都分解为一串特征，应用一些黑盒的机器学习模型，对每个模型求解并选择结果最好的那个。
 
@@ -41,13 +41,13 @@ keywords: Machine Learning Math Model
 * 随机森林
 * 多层感知机（前馈神经网络）
 
-![](https://cdn-images-1.medium.com/max/2642/1*_660b9dw5ItbLqQmFEND9w.png)
+![](https://user-gold-cdn.xitu.io/2019/5/4/16a82726e664b909?w=1321&h=32&f=png&s=282)
 
 ### 数据准备
 
 我会保持因变量（译者注：原文错误，应该为自变量）的维度为 4（选择这个特殊的数字并没有什么原因）。所以，X（自变量）和 Y（因变量）的关系为：
 
-![](https://cdn-images-1.medium.com/max/2000/1*VrJYX9Y5cHPDPAOo_kC1-g.png)
+![](https://user-gold-cdn.xitu.io/2019/5/4/16a82726e75d84bd?w=942&h=193&f=png&s=11121)
 
 f :- 我们将要拟合的函数
 
@@ -167,11 +167,11 @@ elif model_type=='MLP':
 model.fit(X_train, Y_train)
 ```
 
-![](https://cdn-images-1.medium.com/max/2642/1*_660b9dw5ItbLqQmFEND9w.png)
+![](https://user-gold-cdn.xitu.io/2019/5/4/16a82726e664b909?w=1321&h=32&f=png&s=282)
 
 ### 结果
 
-![Results](https://cdn-images-1.medium.com/max/2000/1*4labvDJR1p8-yOsm8PeeNw.png)
+![Results](https://user-gold-cdn.xitu.io/2019/5/4/16a82726e8ad788f?w=826&h=174&f=png&s=18524)
 
 大多数的表现结果比平均基线要好很多。计算出的平均R方是 **70.83%**，**我们可以说，机器学习技术对这些简单的数学函数确实可以有效地建模**。
 

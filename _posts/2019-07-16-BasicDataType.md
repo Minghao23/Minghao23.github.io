@@ -145,7 +145,7 @@ print 0.1 + 0.2 == 0.3
 
 ``` python
 def next_motion(ball_handler, ...):
-    if ball_handler == 'TOTTABYTE 95':
+    if ball_handler == 'YOTTABYTE 95':
         run_to_week_side()
     ...
 ```

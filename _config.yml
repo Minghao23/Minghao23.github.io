@@ -2,7 +2,7 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: //minghao23.com
+url: //minghaohu.com
 date_format: "ordinal"
 title: 胡明昊的个人网站
 subtitle: "胡明昊"
@@ -17,8 +17,8 @@ side_bar_repo_limit: 4
 #      Author      #
 # ---------------- #
 author: Minghao Hu
-organization: www.minghao23.com
-organization_url: http://www.minghao23.com
+organization: www.minghaohu.com
+organization_url: http://www.minghaohu.com
 github_username: Minghao23
 location: Beijing, China
 email: hu_minghao@outlook.com
